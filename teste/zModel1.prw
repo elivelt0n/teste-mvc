@@ -7,15 +7,6 @@
 //Variáveis Estáticas
 Static cTitulo := "Artista"
 
-/*/{Protheus.doc} zModel1
-Exemplo de Modelo 1 para cadastro de Artistas
-@author Atilio
-@since 31/07/2016
-@version 1.0
-	@return Nil, Função não tem retorno
-	@example
-	u_zModel1() 
-/*/
 
 User Function zModel1() 
 	Local aArea   := GetArea()
@@ -159,24 +150,6 @@ Static Function ViewDef()
 	
 Return oView 
 
-/*/{Protheus.doc} zMod1Leg
-Função para mostrar a legenda
-@author Atilio
-@since 31/07/2016
-@version 1.0
-	@example
-	u_zMod1Leg()
-/*/
-
-
-/*/{Protheus.doc} RELSPL
-Função para RELATORIO
-@author ELIVELTON
-@since 31/07/2016
-@version 1.0
-	@example
-	u_RELSPL()
-/*/
 
 User Function zMod1Leg()
 	Local aLegenda := {}
