@@ -13,7 +13,7 @@ User Function zModel1()
 	Local oBrowse
 	Local cFunBkp := FunName()
 	
-	SetFunName("zModel1")
+	SetFunName("zModel1") 
 	
 	//Instânciando FWMBrowse - Somente com dicionário de dados
 	oBrowse := FWMBrowse():New()
