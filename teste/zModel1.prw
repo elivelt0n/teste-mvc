@@ -8,7 +8,7 @@
 Static cTitulo := "Artista"
 //testebranch
 //atualização teste 
-
+//comecei atualizar elivelton .
 User Function zModel1() 
 	Local aArea   := GetArea()
 	Local oBrowse
